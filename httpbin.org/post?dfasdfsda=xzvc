@@ -1,0 +1,25 @@
+HTTP/1.1 200 OK
+Date: Mon, 01 Mar 2021 09:12:55 GMT
+Content-Type: application/json
+Content-Length: 364
+Connection: close
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+  "args": {
+    "dfasdfsda": "xzvc"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Host": "httpbin.org", 
+    "If-Modified-Since": "Mon, 01 Mar 2021 04:12:55 GMT", 
+    "X-Amzn-Trace-Id": "Root=1-603cb017-13943e7c51b515690ac8e049"
+  }, 
+  "json": null, 
+  "origin": "129.236.225.42", 
+  "url": "http://httpbin.org/post?dfasdfsda=xzvc"
+}

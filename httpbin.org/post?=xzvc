@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Mon, 01 Mar 2021 09:12:39 GMT
+Content-Type: application/json
+Content-Length: 287
+Connection: close
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+  "args": {
+    "": "xzvc"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Host": "httpbin.org", 
+    "X-Amzn-Trace-Id": "Root=1-603cb007-332ce3a9228721680057554c"
+  }, 
+  "json": null, 
+  "origin": "129.236.225.42", 
+  "url": "http://httpbin.org/post?=xzvc"
+}

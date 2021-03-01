@@ -1,12 +1,13 @@
 HTTP/1.0 200 OK
-Age: 393198
+Accept-Ranges: bytes
+Age: 430587
 Cache-Control: max-age=604800
 Content-Type: text/html; charset=UTF-8
-Date: Sun, 28 Feb 2021 23:16:50 GMT
-Etag: "3147526947+ident"
-Expires: Sun, 07 Mar 2021 23:16:50 GMT
+Date: Mon, 01 Mar 2021 09:07:40 GMT
+Etag: "3147526947"
+Expires: Mon, 08 Mar 2021 09:07:40 GMT
 Last-Modified: Thu, 17 Oct 2019 07:18:26 GMT
-Server: ECS (nyb/1D0B)
+Server: ECS (nyb/1D13)
 Vary: Accept-Encoding
 X-Cache: HIT
 Content-Length: 1256
