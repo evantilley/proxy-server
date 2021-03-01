@@ -1,0 +1,578 @@
+HTTP/1.1 200 OK
+Date: Sun, 28 Feb 2021 23:27:13 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade, close
+Last-Modified: Mon, 18 Jan 2021 04:47:56 GMT
+ETag: "1d003bb-1c24-5b9256cef499c"
+Accept-Ranges: bytes
+Content-Length: 7204
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+	<script type="text/javascript" src="/static/script.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Evan Tilley</title>
+
+	<style>
+		.background {
+			background-image: linear-gradient(to bottom right, #2240e6, #ff03e2);
+			min-height: 100vh;
+
+		}
+
+		.times {
+			font-family: "Times New Roman", Times, serif;
+		}
+
+		.evan{
+			opacity: 0;
+		}
+		
+		.tilley{
+			opacity: 0;
+		}
+
+		.profile-pic{
+			opacity: 0;
+			border-radius: 10px;
+		}
+
+		.large-font {
+			font-size: 2.5vh;
+		}
+		.larger-font{
+			font-size: 3.5vh;
+		}
+
+		.white {
+			color: white;
+		}
+
+		.padding-top{
+			padding-top: 1.5vh;
+		}
+		.img-scale {
+			max-width: 20vh;
+			width: auto;
+			height: auto;
+		}
+		.bio{
+			opacity: 0;
+		}
+		.pink{
+			color: #6dcf65
+		}
+		.bold{
+			font-weight: bold;
+		}
+		.padding-left{
+			padding-left: 20vw;
+		}
+		.padding-right{
+			margin-right: 10vw;
+		}
+		.underlined{
+			text-decoration: underline;
+		}
+		.div-centered {
+  text-align: left; 
+  margin: auto; 
+  width: 25vw;
+}
+.div-centered-2 {
+  text-align: left; 
+  margin: auto; 
+  width: 40vw;
+}
+.image {
+            background-image: url(github.png);
+            background-size: cover;
+            display: inline-block;
+            height: 8vh;
+            width: 8vh;
+            cursor: pointer;
+        }
+				.linked-in {
+            background-image: url(linkedIn.png);
+            background-size: cover;
+            display: inline-block;
+            height: 6vh;
+            width: 6vh;
+            cursor: pointer;
+            margin-bottom: 1.0vh;
+        }
+
+.skills{
+	opacity: 0
+}
+.software{
+	opacity: 0
+}
+.mobile{
+	opacity: 0
+}
+.redux{
+	opacity: 0
+}
+.graphQL{
+	opacity: 0;
+}
+.tdd{
+	opacity: 0;
+}
+.react{
+	opacity: 0;
+}
+.firebase{
+	opacity: 0;
+}
+.mips{
+	opacity: 0;
+}
+.sql{
+	opacity: 0;
+}
+.springboot{
+	opacity: 0
+}
+.swiftUI{
+	opacity: 0
+}
+.uikit{
+	opacity: 0;
+}
+.android{
+	opacity: 0
+}
+.gamecenter{
+	opacity: 0
+}
+.firebase-integration{
+	opacity: 0
+}
+.experience{
+	opacity: 0
+}
+.lydia{
+	opacity: 0;
+}
+.jsoc{
+	opacity: 0;
+}
+.lioncraft{
+	opacity: 0;
+}
+.flask{
+	opacity: 0;
+}
+.engi{
+	opacity: 0;
+}
+.multi{
+	opacity: 0;
+}
+.linked-in{
+	opacity: 0
+}
+.image{
+	opacity: 0;
+}
+		.left{
+			text-align: justify;
+  text-justify: inter-word;
+		}
+
+		.medium-font{
+			font-size: 2.2vh;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid background">
+		<div class="row">
+			<div class="col-12 text-center">
+				<img src="evan.png" class=" img-scale evan">
+				<img src="tilley.png" class="tilley padding-top img-scale">
+			</div>
+		</div> <br>
+		<div class = "row">
+			<div class = "col-2 ">
+
+			</div>
+			<div class = "col-6 white times">
+				<div class = "bio large-font">
+					Hi! I'm a junior at Columbia University majoring in computer engineering. I'm passionate about mobile and web engineering and the interface between hardware and software. I just finished up an internship working as a full stack developer for the <a class = "pink" href = "https://www.socom.mil/Pages/jsoc.aspx">Joint Special Operations Command </a>and am currently working for Columbia Computer Science Professor Lydia Chilton's research group, as we develop applications for visualizing abstract concepts (see <a class = "pink" href = "https://columbia-computational-design-lab.github.io/symbol_finder_web/">SymbolFinder</a>). I'm currently a TA for Fundamentals of Computer Systems.
+				</div>
+			</div>
+			<div class = "col-4">
+				<img class = "profile-pic img-fluid" src = "profilepic.jpg">
+			</div>
+		</div> <br>
+		<div class = "row">
+			<div class = "col-12 text-center">
+				<div class = "skills white times larger-font underlined">
+					Skills and Interests
+				</div>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-6 text-center times white">
+				<div class = "large-font mobile">Hardware/Software Integration</div>
+				<div class = "div-centered medium-font">
+					<div class = "swiftUI">- Digital Logic Design</div>
+					<div class = "uikit">- Assembly language</div> 
+					<div class = "android">- CPU architecture </div>
+					<div class = "mips">- MIPS</div>
+					<div class = "gamecenter">- Circuit design and construction</div>
+					<div class = "firebase-integration">- Signal Processing</div>
+					<div class = "flask">- Sequential circuitry</div>
+				</div>
+			</div>
+			<div class = "col-6 text-center times white">
+				<div class = "large-font software">Software + Mobile Engineering</div>
+				<div class = "div-centered medium-font">
+					<div class = "redux">- Redux</div>
+					<div class = "react">- React</div>
+					<div class = "graphQL">- GraphQL</div>
+					<div class = "tdd">- Test Driven Development (Jest, MockK, Cypress)</div>
+					<div class = "springboot">- Spring Boot</div>
+					<div class = "flask">- Flask</div>
+					<div class = "sql">- PostgreSQL</div>
+					<div class = "swiftUI">- SwiftUI (recently published <a class = "pink" href = "https://apps.apple.com/us/app/id1528251637">GRYB</a>)</div>
+					<div class = "uikit">- UIKit</div> 
+					<div class = "android">- Android Studio (recently published <a class = "pink" href = "https://play.google.com/store/apps/details?id=com.evantilley.grybcircleballgame">GRYB</a>) </div>
+					<div class = "firebase">- Firebase integration and security</div>
+				</div>
+			</div>
+		</div> <br>
+		<div class = "row">
+			<div class = "col-12 text-center">
+				<div class = "experience white times larger-font underlined">
+					Experience
+				</div>
+				<div class = "div-centered-2 white times medium-font">
+					<ul>
+						<div class = "lydia"><li>Member of Professor Lydia Chilton's Research Group - Fall 2019 - Present</div></li>
+						<div class = "jsoc"><li>Joint Special Operations Command Full Stack Developer Intern - Summer 2020</div></li>
+						<div class = "lioncraft"><li>Founder of <a class = "pink" href = "http://lioncraft.nyc">LionCraft</a>, used to celebrate Columbia's 2020 Commencement Virtually - May 2020</div></li>
+						<div class = "engi"><li>TA for <a class = "pink" href = "https://www.youtube.com/channel/UCES4C577veHJyn1KizZBktw">Fundamentals of Computer Systems</a> </li> </div>
+						<div class = "engi"><li>TA for <a class = "pink" href = "https://www.coursicle.com/columbia/courses/ENGI/E1006/">Introduction to Computing for Engineers and Applied Scientists</a> </li> </div>
+						<div class = "multi"><li>TA for Multivariable Calculus for Engineers and Applied Scientists</div></li>
+						</ul>
+				</div>
+					</ul>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-12 text-center">
+					<btn onClick="parent.location='https://github.com/evantilley'" class="image"></btn>
+					<btn onClick="parent.location='https://www.linkedin.com/in/evan-tilley-a31352190/'"
+							class="linked-in"></btn>
+			</div>
+		</div>
+
+		</div>
+	</div>
+</body>
+
+</html>
+HTTP/1.1 200 OK
+Date: Mon, 01 Mar 2021 01:43:48 GMT
+Server: Apache
+Upgrade: h2,h2c
+Connection: Upgrade, close
+Last-Modified: Mon, 18 Jan 2021 04:47:56 GMT
+ETag: "1d003bb-1c24-5b9256cef499c"
+Accept-Ranges: bytes
+Content-Length: 7204
+Vary: Accept-Encoding,User-Agent
+Content-Type: text/html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+		integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/animejs@3.0.1/lib/anime.min.js"></script>
+	<script type="text/javascript" src="/static/script.js"></script>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Evan Tilley</title>
+
+	<style>
+		.background {
+			background-image: linear-gradient(to bottom right, #2240e6, #ff03e2);
+			min-height: 100vh;
+
+		}
+
+		.times {
+			font-family: "Times New Roman", Times, serif;
+		}
+
+		.evan{
+			opacity: 0;
+		}
+		
+		.tilley{
+			opacity: 0;
+		}
+
+		.profile-pic{
+			opacity: 0;
+			border-radius: 10px;
+		}
+
+		.large-font {
+			font-size: 2.5vh;
+		}
+		.larger-font{
+			font-size: 3.5vh;
+		}
+
+		.white {
+			color: white;
+		}
+
+		.padding-top{
+			padding-top: 1.5vh;
+		}
+		.img-scale {
+			max-width: 20vh;
+			width: auto;
+			height: auto;
+		}
+		.bio{
+			opacity: 0;
+		}
+		.pink{
+			color: #6dcf65
+		}
+		.bold{
+			font-weight: bold;
+		}
+		.padding-left{
+			padding-left: 20vw;
+		}
+		.padding-right{
+			margin-right: 10vw;
+		}
+		.underlined{
+			text-decoration: underline;
+		}
+		.div-centered {
+  text-align: left; 
+  margin: auto; 
+  width: 25vw;
+}
+.div-centered-2 {
+  text-align: left; 
+  margin: auto; 
+  width: 40vw;
+}
+.image {
+            background-image: url(github.png);
+            background-size: cover;
+            display: inline-block;
+            height: 8vh;
+            width: 8vh;
+            cursor: pointer;
+        }
+				.linked-in {
+            background-image: url(linkedIn.png);
+            background-size: cover;
+            display: inline-block;
+            height: 6vh;
+            width: 6vh;
+            cursor: pointer;
+            margin-bottom: 1.0vh;
+        }
+
+.skills{
+	opacity: 0
+}
+.software{
+	opacity: 0
+}
+.mobile{
+	opacity: 0
+}
+.redux{
+	opacity: 0
+}
+.graphQL{
+	opacity: 0;
+}
+.tdd{
+	opacity: 0;
+}
+.react{
+	opacity: 0;
+}
+.firebase{
+	opacity: 0;
+}
+.mips{
+	opacity: 0;
+}
+.sql{
+	opacity: 0;
+}
+.springboot{
+	opacity: 0
+}
+.swiftUI{
+	opacity: 0
+}
+.uikit{
+	opacity: 0;
+}
+.android{
+	opacity: 0
+}
+.gamecenter{
+	opacity: 0
+}
+.firebase-integration{
+	opacity: 0
+}
+.experience{
+	opacity: 0
+}
+.lydia{
+	opacity: 0;
+}
+.jsoc{
+	opacity: 0;
+}
+.lioncraft{
+	opacity: 0;
+}
+.flask{
+	opacity: 0;
+}
+.engi{
+	opacity: 0;
+}
+.multi{
+	opacity: 0;
+}
+.linked-in{
+	opacity: 0
+}
+.image{
+	opacity: 0;
+}
+		.left{
+			text-align: justify;
+  text-justify: inter-word;
+		}
+
+		.medium-font{
+			font-size: 2.2vh;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="container-fluid background">
+		<div class="row">
+			<div class="col-12 text-center">
+				<img src="evan.png" class=" img-scale evan">
+				<img src="tilley.png" class="tilley padding-top img-scale">
+			</div>
+		</div> <br>
+		<div class = "row">
+			<div class = "col-2 ">
+
+			</div>
+			<div class = "col-6 white times">
+				<div class = "bio large-font">
+					Hi! I'm a junior at Columbia University majoring in computer engineering. I'm passionate about mobile and web engineering and the interface between hardware and software. I just finished up an internship working as a full stack developer for the <a class = "pink" href = "https://www.socom.mil/Pages/jsoc.aspx">Joint Special Operations Command </a>and am currently working for Columbia Computer Science Professor Lydia Chilton's research group, as we develop applications for visualizing abstract concepts (see <a class = "pink" href = "https://columbia-computational-design-lab.github.io/symbol_finder_web/">SymbolFinder</a>). I'm currently a TA for Fundamentals of Computer Systems.
+				</div>
+			</div>
+			<div class = "col-4">
+				<img class = "profile-pic img-fluid" src = "profilepic.jpg">
+			</div>
+		</div> <br>
+		<div class = "row">
+			<div class = "col-12 text-center">
+				<div class = "skills white times larger-font underlined">
+					Skills and Interests
+				</div>
+			</div>
+		</div>
+		<div class = "row">
+			<div class = "col-6 text-center times white">
+				<div class = "large-font mobile">Hardware/Software Integration</div>
+				<div class = "div-centered medium-font">
+					<div class = "swiftUI">- Digital Logic Design</div>
+					<div class = "uikit">- Assembly language</div> 
+					<div class = "android">- CPU architecture </div>
+					<div class = "mips">- MIPS</div>
+					<div class = "gamecenter">- Circuit design and construction</div>
+					<div class = "firebase-integration">- Signal Processing</div>
+					<div class = "flask">- Sequential circuitry</div>
+				</div>
+			</div>
+			<div class = "col-6 text-center times white">
+				<div class = "large-font software">Software + Mobile Engineering</div>
+				<div class = "div-centered medium-font">
+					<div class = "redux">- Redux</div>
+					<div class = "react">- React</div>
+					<div class = "graphQL">- GraphQL</div>
+					<div class = "tdd">- Test Driven Development (Jest, MockK, Cypress)</div>
+					<div class = "springboot">- Spring Boot</div>
+					<div class = "flask">- Flask</div>
+					<div class = "sql">- PostgreSQL</div>
+					<div class = "swiftUI">- SwiftUI (recently published <a class = "pink" href = "https://apps.apple.com/us/app/id1528251637">GRYB</a>)</div>
+					<div class = "uikit">- UIKit</div> 
+					<div class = "android">- Android Studio (recently published <a class = "pink" href = "https://play.google.com/store/apps/details?id=com.evantilley.grybcircleballgame">GRYB</a>) </div>
+					<div class = "firebase">- Firebase integration and security</div>
+				</div>
+			</div>
+		</div> <br>
+		<div class = "row">
+			<div class = "col-12 text-center">
+				<div class = "experience white times larger-font underlined">
+					Experience
+				</div>
+				<div class = "div-centered-2 white times medium-font">
+					<ul>
+						<div class = "lydia"><li>Member of Professor Lydia Chilton's Research Group - Fall 2019 - Present</div></li>
+						<div class = "jsoc"><li>Joint Special Operations Command Full Stack Developer Intern - Summer 2020</div></li>
+						<div class = "lioncraft"><li>Founder of <a class = "pink" href = "http://lioncraft.nyc">LionCraft</a>, used to celebrate Columbia's 2020 Commencement Virtually - May 2020</div></li>
+						<div class = "engi"><li>TA for <a class = "pink" href = "https://www.youtube.com/channel/UCES4C577veHJyn1KizZBktw">Fundamentals of Computer Systems</a> </li> </div>
+						<div class = "engi"><li>TA for <a class = "pink" href = "https://www.coursicle.com/columbia/courses/ENGI/E1006/">Introduction to Computing for Engineers and Applied Scientists</a> </li> </div>
+						<div class = "multi"><li>TA for Multivariable Calculus for Engineers and Applied Scientists</div></li>
+						</ul>
+				</div>
+					</ul>
+				</div>
+			</div>
+			<div class = "row">
+				<div class = "col-md-12 text-center">
+					<btn onClick="parent.location='https://github.com/evantilley'" class="image"></btn>
+					<btn onClick="parent.location='https://www.linkedin.com/in/evan-tilley-a31352190/'"
+							class="linked-in"></btn>
+			</div>
+		</div>
+
+		</div>
+	</div>
+</body>
+
+</html>

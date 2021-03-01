@@ -1,0 +1,24 @@
+HTTP/1.1 200 OK
+Date: Mon, 01 Mar 2021 00:36:14 GMT
+Content-Type: application/json
+Content-Length: 306
+Connection: close
+Server: gunicorn/19.9.0
+Access-Control-Allow-Origin: *
+Access-Control-Allow-Credentials: true
+
+{
+  "args": {
+    "beans": "asdfasdf"
+  }, 
+  "data": "", 
+  "files": {}, 
+  "form": {}, 
+  "headers": {
+    "Host": "httpbin.org", 
+    "X-Amzn-Trace-Id": "Root=1-603c36fd-5a50076c03e718ea19d2e430"
+  }, 
+  "json": null, 
+  "origin": "129.236.225.184", 
+  "url": "http://httpbin.org/post?beans=asdfasdf"
+}
